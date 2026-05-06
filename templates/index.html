@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Gjett tallet</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: Arial;
       background: #f4f4f4;
       display: flex;
       justify-content: center;
@@ -17,9 +18,9 @@
       background: white;
       padding: 30px;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
       text-align: center;
       width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     input {
@@ -30,15 +31,11 @@
 
     button {
       padding: 10px 20px;
-      background: #4CAF50;
+      background: green;
       color: white;
       border: none;
       cursor: pointer;
       border-radius: 5px;
-    }
-
-    button:hover {
-      background: #45a049;
     }
 
     .message {
@@ -50,19 +47,24 @@
 
 <body>
   <div class="container">
-    <h2>Gjett tallet spillet</h2>
+    <h2>Gjett tallet 🎯</h2>
 
     <form method="POST">
       <input type="text" name="guess" placeholder="Skriv et tall">
-      <br>
       <button type="submit">Gjett</button>
     </form>
 
     <div class="message">
       {{ message }}
     </div>
-  </div>
 
-  
+    <script>
+      const msg = "{{ message }}";
+      if (msg) {
+        alert(msg);
+      }
+    </script>
+
+  </div>
 </body>
 </html>
