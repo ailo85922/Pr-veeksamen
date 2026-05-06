@@ -9,4 +9,5 @@ nå har jeg brukt litt KI til å få inn basicsa som jeg ikke husket, for eksemp
 
 jeg har gått litt gjennom det man vanligvis burde kunne bare for å få en liten gjennomgang, også skal jeg se på de videoene om python og flask som erik har ute.
 
-Jeg bruker SQLite for å lagre antall forsøk hver gang spilleren vinner, slik at resultatene kan analyseres senere.
+Jeg bruker SQLite3 for å lagre antall forsøk hver gang spilleren vinner, slik at resultatene kan analyseres senere.
+jeg har brukt KI til denne delen, jeg kunne litt fra før, altså kommandoene, SELECT, USERS, JOIN etc, men jeg prøver å få meg selv til å kunne litt av det, det er greit å ha det i koden min, men jeg vil helst ha noe jeg faktisk kan forstå, så jeg føler det blir litt bedre.
